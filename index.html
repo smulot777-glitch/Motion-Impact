@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motion Impact - Donnez Vie à Vos Idées | Montage Vidéo • Motion Design • Branding</title>
+    <meta name="description" content="Motion Impact - Votre partenaire de confiance pour la création de contenus visuels percutants et innovants. Montage vidéo, motion design et branding professionnel par Sébastien (Freedom Fire).">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="nav-logo">Motion Impact</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#accueil" class="nav-link">Accueil</a>
+                <a href="#apropos" class="nav-link">À Propos</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#temoignages" class="nav-link">Témoignages</a>
+                <a href="#tarification" class="nav-link">Tarification</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Motion Impact</h1>
+                <p class="hero-subtitle">Donnez Vie à Vos Idées</p>
+                <p class="hero-tagline">Montage Vidéo • Motion Design • Branding</p>
+                <p class="hero-description">Votre partenaire de confiance pour la création de contenus visuels percutants et innovants</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn--primary btn--lg">Démarrer Votre Projet</a>
+                    <a href="#portfolio" class="btn btn--outline btn--lg">Voir le Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- À Propos Section -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>À Propos de Sébastien</h2>
+                <p>Créateur visuel passionné derrière Motion Impact</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Diplômé du Gaming Campus, Sébastien (Freedom Fire) transforme sa passion pour la création visuelle en expertise professionnelle. Avec une approche personnalisée et un œil artistique affûté, il donne vie aux idées de ses clients à travers des créations visuelles impactantes.</p>
+                    <p>Spécialisé dans le montage vidéo, le motion design et le branding, Sébastien combine créativité et technique pour créer des contenus qui marquent les esprits et génèrent des résultats concrets pour vos projets.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Projets Réalisés</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Années d'Expérience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Clients Satisfaits</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nos Services</h2>
+                <p>Des solutions créatives adaptées à vos besoins</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎬</div>
+                    <h3>Montage Vidéo</h3>
+                    <p>Transformez vos séquences brutes en vidéos captivantes et professionnelles</p>
+                    <ul class="service-features">
+                        <li>Montage publicitaire</li>
+                        <li>Vidéos corporate</li>
+                        <li>Contenus YouTube</li>
+                        <li>Reels Instagram</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>Motion Design</h3>
+                    <p>Donnez vie à vos idées avec des animations dynamiques et créatives</p>
+                    <ul class="service-features">
+                        <li>Animations 2D/3D</li>
+                        <li>Génériques</li>
+                        <li>Infographies animées</li>
+                        <li>Habillage vidéo</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Logo & Branding</h3>
+                    <p>Créez une identité visuelle forte et cohérente pour votre marque</p>
+                    <ul class="service-features">
+                        <li>Création de logos</li>
+                        <li>Charte graphique</li>
+                        <li>Animation de logos</li>
+                        <li>Identité visuelle</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Portfolio</h2>
+                <p>Découvrez nos réalisations</p>
+            </div>
+            <div class="portfolio-tabs">
+                <button class="tab-btn active" data-tab="tous">Tous</button>
+                <button class="tab-btn" data-tab="montage">Montage</button>
+                <button class="tab-btn" data-tab="motion">Motion</button>
+                <button class="tab-btn" data-tab="branding">Branding</button>
+            </div>
+            <div class="portfolio-grid" id="portfolio-grid">
+                <div class="portfolio-item" data-category="montage">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">🎬</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Publicité Produit Tech</h3>
+                        <p>Montage dynamique pour le lancement d'un smartphone</p>
+                        <div class="portfolio-meta">
+                            <span>Client: TechCorp</span>
+                            <span>Durée: 30 secondes</span>
+                        </div>
+                        <button class="portfolio-btn" data-project="0">Voir le projet</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="montage">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">🎭</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Générique Série Web</h3>
+                        <p>Création du générique d'ouverture pour une série YouTube</p>
+                        <div class="portfolio-meta">
+                            <span>Client: WebSeries Productions</span>
+                            <span>Durée: 45 secondes</span>
+                        </div>
+                        <button class="portfolio-btn" data-project="1">Voir le projet</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="motion">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">🚀</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Animation Logo Startup</h3>
+                        <p>Animation du logo pour une fintech innovante</p>
+                        <div class="portfolio-meta">
+                            <span>Client: FinTech Solutions</span>
+                            <span>Durée: 10 secondes</span>
+                        </div>
+                        <button class="portfolio-btn" data-project="2">Voir le projet</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="motion">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">📊</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Infographie Animée</h3>
+                        <p>Présentation de données complexes en motion design</p>
+                        <div class="portfolio-meta">
+                            <span>Client: Data Analytics Co</span>
+                            <span>Durée: 2 minutes</span>
+                        </div>
+                        <button class="portfolio-btn" data-project="3">Voir le projet</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">🍽️</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Identité Visuelle Restaurant</h3>
+                        <p>Logo et charte graphique complète</p>
+                        <div class="portfolio-meta">
+                            <span>Client: Le Bistrot Moderne</span>
+                            <span>Livrables: Logo, cartes, menu, signalétique</span>
+                        </div>
+                        <button class="portfolio-btn" data-project="4">Voir le projet</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Témoignages Section -->
+    <section id="temoignages" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ce Que Disent Nos Clients</h2>
+                <p>Des partenariats qui créent de la valeur</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <p>"Sébastien a transformé notre vision en une vidéo publicitaire exceptionnelle. Nos ventes ont augmenté de 40% depuis sa diffusion !"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MD</div>
+                        <div>
+                            <h4>Marie Dubois</h4>
+                            <span>E-commerce Plus</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <p>"Le motion design créé par Motion Impact a donné une identité unique à notre marque. Professionnel, créatif et à l'écoute."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">TM</div>
+                        <div>
+                            <h4>Thomas Martin</h4>
+                            <span>StartupTech</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <p>"Collaboration parfaite ! Sébastien comprend immédiatement nos besoins et livre toujours dans les délais. Je recommande vivement."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SL</div>
+                        <div>
+                            <h4>Sophie Laurent</h4>
+                            <span>Agence Digital</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tarification Section -->
+    <section id="tarification" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tarification</h2>
+                <p>Des tarifs transparents et adaptés à vos projets</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Montage Vidéo</h3>
+                    <div class="pricing-price">300-500€<span>/jour</span></div>
+                    <ul class="pricing-features">
+                        <li>Montage professionnel</li>
+                        <li>Étalonnage colorimétrique</li>
+                        <li>Mixage audio</li>
+                        <li>3 révisions incluses</li>
+                    </ul>
+                    <a href="#contact" class="btn btn--outline">Devis Personnalisé</a>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>Motion Design</h3>
+                    <div class="pricing-price">400-600€<span>/jour</span></div>
+                    <ul class="pricing-features">
+                        <li>Animations 2D/3D</li>
+                        <li>Storyboard inclus</li>
+                        <li>Rendu haute définition</li>
+                        <li>Fichiers sources fournis</li>
+                    </ul>
+                    <a href="#contact" class="btn btn--primary">Devis Personnalisé</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Branding Complet</h3>
+                    <div class="pricing-price">800-1500€<span>/forfait</span></div>
+                    <ul class="pricing-features">
+                        <li>Logo principal + variantes</li>
+                        <li>Charte graphique</li>
+                        <li>Applications pratiques</li>
+                        <li>Support 6 mois</li>
+                    </ul>
+                    <a href="#contact" class="btn btn--outline">Devis Personnalisé</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Parlons de Votre Projet</h2>
+                <p>Prêt à donner vie à vos idées ? Contactez-nous dès maintenant</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Informations de Contact</h3>
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contact@motionimpact.fr</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>+33 6 XX XX XX XX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <h4>Localisation</h4>
+                            <p>Île-de-France, France</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Nom complet</label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="service" class="form-label">Service souhaité</label>
+                            <select id="service" name="service" class="form-control">
+                                <option value="">Sélectionnez un service</option>
+                                <option value="montage">Montage Vidéo</option>
+                                <option value="motion">Motion Design</option>
+                                <option value="branding">Logo & Branding</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Description du projet</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Envoyer le Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Motion Impact</h3>
+                    <p>Donnez vie à vos idées</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#accueil">Accueil</a>
+                    <a href="#services">Services</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Motion Impact. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal pour Portfolio -->
+    <div class="modal hidden" id="portfolio-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <div class="modal-body" id="modal-body">
+                <!-- Contenu dynamique -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
