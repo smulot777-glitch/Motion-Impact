@@ -5,56 +5,67 @@ document.addEventListener('DOMContentLoaded', function() {
     const portfolioData = [
         {
             title: "Publicité Produit Tech",
-            category: "montage",
-            description: "Montage dynamique pour le lancement d'un smartphone révolutionnaire. Création d'une vidéo publicitaire de 30 secondes alliant techniques de montage moderne et storytelling percutant.",
-            client: "TechCorp",
-            duration: "30 secondes",
+            category: "motion",
+            description: "Montage dynamique pour le lancement d'un Home Dashboard révolutionnaire. Création d'une vidéo publicitaire de 35 secondes alliant techniques de montage moderne et storytelling percutant.",
+            client: "Nexus Home",
+            duration: "35 secondes",
             objectives: ["Présenter les fonctionnalités clés", "Créer l'engouement autour du produit", "Générer des conversions"],
-            results: ["40% d'augmentation des pré-commandes", "2M de vues en 24h", "Taux d'engagement 15% au-dessus de la moyenne"],
-            techniques: ["Montage rythmé", "Étalonnage cinématique", "Motion graphics intégrées", "Sound design personnalisé"]
+            results: ["Augmentation des pré-commandes", "Grande croissance de vues en 24h", "Taux d'engagement 15% au-dessus de la moyenne"],
+            techniques: ["Montage rythmé", "Motion graphics intégrées", "Sound design personnalisé"]
         },
         {
             title: "Générique Série Web",
             category: "montage",
             description: "Conception et réalisation du générique d'ouverture pour une série YouTube à succès. Mélange de séquences live et d'éléments graphiques pour créer l'identité visuelle de la série.",
             client: "WebSeries Productions",
-            duration: "45 secondes",
+            duration: "85 secondes",
             objectives: ["Créer l'identité de la série", "Capter l'attention dès les premières secondes", "Établir le ton et l'univers"],
             results: ["Reconnaissance immédiate de la série", "Augmentation de 25% du taux de rétention", "Mémorabilité accrue auprès des viewers"],
-            techniques: ["Montage multi-caméras", "Compositing avancé", "Animation de textes", "Création d'atmosphère sonore"]
+            techniques: ["Compositing avancé", "Animation de textes", "Création d'atmosphère sonore"]
         },
         {
-            title: "Animation Logo Startup",
-            category: "motion",
-            description: "Création d'une animation logo dynamique pour une fintech innovante. Animation fluide et moderne reflétant les valeurs technologiques et la fiabilité de l'entreprise.",
-            client: "FinTech Solutions",
-            duration: "10 secondes",
-            objectives: ["Moderniser l'image de marque", "Créer un logo animé mémorable", "Renforcer la crédibilité tech"],
-            results: ["Amélioration de la perception de marque", "Utilisation sur tous supports digitaux", "Différenciation concurrentielle"],
-            techniques: ["Animation 2D vectorielle", "Easing personnalisé", "Optimisation multi-formats", "Déclinaisons responsives"]
+            title: "Showreel 2025",
+            category: "montage",
+            description: "Présentation des projets au cours de l'année.",
+            client: "Motion Impact",
+            duration: "75 secondes",
+            objectives: ["Mettre en valeur la diversité des compétences en montage et motion design", "Démontrer la capacité à travailler sur différents types de projets (publicité, corporate, branding, réseaux sociaux)", "Séduire des prospects grâce à un montage rythmé et innovant"],
+            results: ["Nombre de visionnages en hausse sur le site (x2 en 3 mois)", "Génération de nouveaux contacts clients suite à la diffusion du showreel", "Utilisé comme support pour décrocher des missions via Upwork et LinkedIn"],
+            techniques: ["Montage cut et synchronisation musicale avancée", "Transitions dynamiques et animations typographiques", "Colorimétrie poussée (étalonnage)", "Mixage et sound design soigné", "Intégration d’éléments de motion design"]
         },
         {
-            title: "Infographie Animée",
-            category: "motion",
-            description: "Transformation de données complexes en infographie animée engageante. Visualisation claire et pédagogique pour présenter les résultats d'une étude de marché.",
-            client: "Data Analytics Co",
-            duration: "2 minutes",
-            objectives: ["Simplifier des données complexes", "Maintenir l'attention sur 2 minutes", "Faciliter la compréhension"],
-            results: ["90% des viewers ont regardé la vidéo complète", "Partages viraux sur LinkedIn", "Demandes de formations internes"],
-            techniques: ["Data visualization", "Animations fluides", "Palette cohérente", "Narration visuelle"]
+            title: "Clip Vidéo",
+            category: "montage",
+            description: "Montage créatif sur un extrait musical, mettant en valeur la synchronisation entre l’image et le rythme sonore.",
+            client: "Projet personnel",
+            duration: "20 secondes",
+            objectives: ["Expérimenter de nouvelles techniques de montage rapides et dynamiques", "Renforcer la dimension artistique du projet à travers le rythme et les transitions", "Montrer la polyvalence dans le choix des styles et l'adaptation à différents univers visuels"],
+            results: ["Feedback très positif de la communauté sur les réseaux sociaux", "Utilisé comme référence auprès de prospects pour illustrer la créativité et l'énergie du montage", "Accroissement de la visibilité sur les plateformes de partage vidéo"],
+            techniques: ["Montage rythmé sur la bande-son", "Transitions créatives et effets rapides", "Découpage précis en fonction de la musique", "Étalonnage colorimétrique pour ambiance forte", "Effets de superposition et accélérés"]
         },
         {
-            title: "Identité Visuelle Restaurant",
-            category: "branding",
-            description: "Création complète de l'identité visuelle pour un restaurant moderne. Du logo aux supports de communication, en passant par la signalétique, projet global cohérent.",
-            client: "Le Bistrot Moderne",
-            deliverables: "Logo, cartes, menu, signalétique",
-            objectives: ["Créer une identité premium", "Se démarquer de la concurrence", "Cohérence sur tous supports"],
-            results: ["Augmentation de 30% de la clientèle", "Reconnaissance dans guides gastronomiques", "Image premium établie"],
-            techniques: ["Design thinking", "Charte graphique complète", "Déclinaisons print et digital", "Signalétique sur-mesure"]
+            title: "Transformation du jour à la nuit",
+            category: "montage",
+            description: "Montage expérimental explorant la transition visuelle d’une scène de jour vers une ambiance nocturne, à travers des effets spéciaux et des retouches colorimétriques.",
+            client: "Projet personnel",
+            duration: "40 secondes",
+            objectives: ["Maîtriser les techniques de color grading pour reproduire un changement d’ambiance réaliste", "Tester des effets visuels avancés pour simuler le passage du jour à la nuit", "Démontrer la capacité à transformer radicalement l’esthétique d’une séquence"],
+            results: ["Projet largement partagé sur les réseaux sociaux et forums de vidéo", "Apprécié pour la fluidité et la crédibilité de la transformation", "Ajouté comme démonstration de savoir-faire technique sur le portfolio"],
+            techniques: ["Color grading avancé (baisse de luminosité, virage bleu, ajout de tons froids)", "Superpositions d’effets lumineux (lampadaires, reflets de lune, lumières de ville)", "Transitions douces entre les différentes ambiances", "Utilisation de masques et d’animations d’opacité", "Ajout de bruit vidéo et d’effets de lueur pour renforcer l’effet nocturne"]
         }
     ];
-
+        {
+            title: "Aquarium",
+            category: "étalonnage",
+            description: "Montage expérimental explorant la transition visuelle d’une scène de jour vers une ambiance nocturne, à travers des effets spéciaux et des retouches colorimétriques.",
+            client: "Projet personnel",
+            duration: "40 secondes",
+            objectives: ["Maîtriser les techniques de color grading pour reproduire un changement d’ambiance réaliste", "Tester des effets visuels avancés pour simuler le passage du jour à la nuit", "Démontrer la capacité à transformer radicalement l’esthétique d’une séquence"],
+            results: ["Projet largement partagé sur les réseaux sociaux et forums de vidéo", "Apprécié pour la fluidité et la crédibilité de la transformation", "Ajouté comme démonstration de savoir-faire technique sur le portfolio"],
+            techniques: ["Color grading avancé (baisse de luminosité, virage bleu, ajout de tons froids)", "Superpositions d’effets lumineux (lampadaires, reflets de lune, lumières de ville)", "Transitions douces entre les différentes ambiances", "Utilisation de masques et d’animations d’opacité", "Ajout de bruit vidéo et d’effets de lueur pour renforcer l’effet nocturne"]
+        }
+    ];
+        
     // Navigation functionality
     initNavigation();
     
