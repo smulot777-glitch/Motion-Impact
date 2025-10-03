@@ -54,18 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
             techniques: ["Color grading avancé (baisse de luminosité, virage bleu, ajout de tons froids)", "Superpositions d’effets lumineux (lampadaires, reflets de lune, lumières de ville)", "Transitions douces entre les différentes ambiances", "Utilisation de masques et d’animations d’opacité", "Ajout de bruit vidéo et d’effets de lueur pour renforcer l’effet nocturne"]
         }
     ];
-        {
-            title: "Aquarium",
-            category: "étalonnage",
-            description: "Montage expérimental explorant la transition visuelle d’une scène de jour vers une ambiance nocturne, à travers des effets spéciaux et des retouches colorimétriques.",
-            client: "Projet personnel",
-            duration: "40 secondes",
-            objectives: ["Maîtriser les techniques de color grading pour reproduire un changement d’ambiance réaliste", "Tester des effets visuels avancés pour simuler le passage du jour à la nuit", "Démontrer la capacité à transformer radicalement l’esthétique d’une séquence"],
-            results: ["Projet largement partagé sur les réseaux sociaux et forums de vidéo", "Apprécié pour la fluidité et la crédibilité de la transformation", "Ajouté comme démonstration de savoir-faire technique sur le portfolio"],
-            techniques: ["Color grading avancé (baisse de luminosité, virage bleu, ajout de tons froids)", "Superpositions d’effets lumineux (lampadaires, reflets de lune, lumières de ville)", "Transitions douces entre les différentes ambiances", "Utilisation de masques et d’animations d’opacité", "Ajout de bruit vidéo et d’effets de lueur pour renforcer l’effet nocturne"]
-        }
-    ];
-        
+              
     // Navigation functionality
     initNavigation();
     
