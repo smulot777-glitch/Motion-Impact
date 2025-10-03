@@ -52,7 +52,17 @@ document.addEventListener('DOMContentLoaded', function() {
             objectives: ["Maîtriser les techniques de color grading pour reproduire un changement d’ambiance réaliste", "Tester des effets visuels avancés pour simuler le passage du jour à la nuit", "Démontrer la capacité à transformer radicalement l’esthétique d’une séquence"],
             results: ["Projet largement partagé sur les réseaux sociaux et forums de vidéo", "Apprécié pour la fluidité et la crédibilité de la transformation", "Ajouté comme démonstration de savoir-faire technique sur le portfolio"],
             techniques: ["Color grading avancé (baisse de luminosité, virage bleu, ajout de tons froids)", "Superpositions d’effets lumineux (lampadaires, reflets de lune, lumières de ville)", "Transitions douces entre les différentes ambiances", "Utilisation de masques et d’animations d’opacité", "Ajout de bruit vidéo et d’effets de lueur pour renforcer l’effet nocturne"]
-        }
+        },
+        {
+            title: "Aquarium",
+            category: "étalonnage",
+            description: "Exercice d'étalonnage sur une séquence sous-marine, visant à révéler toute la profondeur et la richesse des couleurs dans un environnement aquatique.",
+            client: "Projet personnel",
+            duration: "60 secondes",
+            objectives: [ "Corriger les dominantes de couleur et restaurer la fidélité des tons sous-marins", "Sublimer les teintes naturelles et l’atmosphère lumineuse unique de l’aquarium", "Mettre en avant la clarté et le contraste des sujets filmés"],
+            results: ["Diffusion remarquée sur les réseaux sociaux comme exemple de retouche colorimétrique avancée", "Acquisition de compétences pointues en correction des couleurs sur la vidéo aquatique", "Vidéo utilisée comme vitrine pédagogique auprès de prospects et de la communauté"],
+            techniques: ["Neutralisation de la dominante bleue/verte", "Ajustement fin de la balance des blancs", "Rehaussement sélectif des couleurs (coraux, poissons, plantes)", "Gestion localisée de l’exposition et du contraste", "Utilisation de masques et de courbes pour retravailler certaines zones spécifiques"]
+        },
     ];
               
     // Navigation functionality
